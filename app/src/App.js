@@ -1,20 +1,20 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
+import Header from './components/header';
+import Profile from './components/profile';
+import Content from './components/content';
+import Footer from './components/footer';
 
 function App() {
   return (
     <Container fluid>
-      <Row className="cabecalho">
-        <Col className="bg-primary">Cabeçalho</Col>
-      </Row>
+      <Header />
       <Row className="body">
-        <Col md={4} className="bg-secondary">Conteúdo esquerda</Col>
-        <Col md={8} className="bg-success">Conteúdo direita</Col>
+        <Profile />
+        <Content />
       </Row>
-      <Row className="rodape">
-        <Col className="bg-warning">Rodapé</Col>
-      </Row>
+      <Footer />
     </Container>
   );
 }

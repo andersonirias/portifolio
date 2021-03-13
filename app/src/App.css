@@ -1,11 +1,3 @@
-.cabecalho {
-  min-height: 10vh;
-}
-
 .body {
   min-height: 80vh;
-}
-
-.rodape {
-  min-height: 10vh;
 }
