@@ -1,3 +1,35 @@
+body {
+  background-image: url('./space.jpg');
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  min-height: 8vh;
+}
+
 .body {
-  min-height: 80vh;
+  min-height: 76vh;
+}
+
+.footer {
+  min-height: 8vh;
+}
+
+.card-shadow {
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 2px 1px -1px rgb(0 0 0 / 12%);
+}
+
+.border-radius {
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 50px;
+}
+
+.border {
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 10px;
 }

@@ -1,7 +1,27 @@
 .footer {
-  min-height: 10vh;
+  height: 6vh;
 }
 
 .footer-card {
-  min-height: 70%;
+  min-height: 100%;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.footer-card:hover {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  color: #000000;
+}
+
+.footer-card-active {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid #000000;
+  color: #000000;
+}
+
+.icon-footer {
+  height: 52px;
+  width: 52px;
 }

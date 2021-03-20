@@ -1,7 +1,18 @@
-.header {
-  min-height: 10vh;
-}
-
 .header-card {
   min-height: 70%;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.header-card:hover {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  color: #000000;
+}
+
+.header-button {
+  width: 80%;
+  min-height: 70%;
+  border: 2px solid #ffffff;
 }

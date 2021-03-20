@@ -9,12 +9,12 @@ import Footer from './components/footer';
 function App() {
   return (
     <Container fluid>
-      <Header />
+      <Header className="header"/>
       <Row className="body">
         <Profile />
         <Content />
       </Row>
-      <Footer />
+      <Footer className="footer"/>
     </Container>
   );
 }

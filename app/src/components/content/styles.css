@@ -1,4 +1,19 @@
 .content-card {
   top: 10%;
-  min-height: 80%;
+  height: 80%;
+  border: 2px solid #ffffff!important;
+  background-color:rgba(255, 255, 255, 0.7);
+}
+
+.title-divisor {
+  width: 60%;
+  text-align: left;
+  margin-left: 0;
+  height: 2px;
+  color: #000000;
+  background-color: #000000;
+}
+
+.content-title {
+  background-color: #ffffff;
 }
