@@ -1,4 +1,4 @@
-import { React, Component } from 'react';
+import { React } from 'react';
 import { Row, Col, Card, Image } from 'react-bootstrap';
 import './styles.css';
 import PerfilImg from './img/perfil.jpeg';
@@ -6,11 +6,10 @@ import MailImg from './img/mail.png';
 import LinImg from './img/linkedin.png';
 import GitImg from './img/github.png';
 
-class Profile extends Component {
-  render() {
-    return (
-      <Col md={4}>
-        <Card className="mx-4 p-2 profile-card border card-shadow overflow-auto">
+export default function Profile() {
+  return (
+    <Col md={4}>
+        <Card className="mx-4 p-2 profile-card border card-shadow overflow-auto h-45">
           <Card.Body>
             <Row>
               <Col md={12}  className="text-center">
@@ -39,9 +38,6 @@ class Profile extends Component {
             </Row>  
           </Card.Body>
         </Card>
-      </Col>
-    );
-  }
+    </Col>
+  );
 }
-
-export default Profile;
